@@ -3,4 +3,4 @@
 
 ## Objetivo : Retomar os estudos em programação web rumo a migrar de carreira.
 
-# Versão em desenvolvimento – Dia 2: layout + formulário + interação”
+- Versão em desenvolvimento – Dia 2: layout + formulário + interação”
