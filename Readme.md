@@ -7,3 +7,4 @@
 - Versão em desenvolvimento - Dia 3: melhora seção Sobre com timeline 
 - Versão em desenvolvimento - Dia 4: aprimora layout geral e define identidade visual inicial
 -  Versão em desenvolvimento - Dia 5: cria estrutura inicial da seção de projetos com cards básicos
+- Versão em desenvolvimento - Dia 6: criação de variáveis css e aplicação no projeto
