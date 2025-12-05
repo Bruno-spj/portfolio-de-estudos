@@ -4,6 +4,32 @@ body {
   background-color: var(--cor-primaria);
 }
 
+.dark-theme {
+  background-color: var(--cor-texto);
+}
+
+.dark-theme p,
+.dark-theme h2,
+.dark-theme h3 {
+  color: var(--cor-texto-dark) !important;
+}
+
+.dark-theme strong {
+  color: var(--cor-secundaria) !important;
+}
+
+.dark-theme .card h3{
+  color: var(--cor-titulo) !important;
+}
+
+.dark-theme .descricao-projeto {
+  color: var(--cor-texto) !important;
+}
+
+.dark-theme footer p{
+  color: var(--cor-texto) !important;
+}
+
 .header {
   background-color: var(--cor-bg-header-footer);
   padding: 20px;
@@ -13,6 +39,17 @@ body {
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 0% 0 20px 20px;
+}
+
+.header .btn-header {
+  cursor: pointer;
+  border: none;
+  color: var(--cor-texto);
+}
+
+.header .btn-header img {
+  width: 40px;
+  height: 40px;
 }
 
 .nav-menu .menu-list {
@@ -25,7 +62,7 @@ body {
   color: var(--cor-texto);
   font-weight: 500;
   transition: all 0.3s ease;
-} 
+}
 
 .nav-menu .menu-list li a:hover {
   color: var(--cor-secundaria);
@@ -37,21 +74,22 @@ body {
 
 .main-content .conteudo {
   display: flex;
-  align-items: center; 
-  gap: 1.5rem; 
+  align-items: center;
+  gap: 1.5rem;
   margin-bottom: 30px;
-  max-width: 1000px;   
-  margin: 0 auto;    
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 1rem;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
+
 .main-content .avatar {
   width: 200px;
   height: 200px;
-  background-color: #ddd; 
-  border-radius: 50%; 
+  background-color: #ddd;
+  border-radius: 50%;
   border: 4px solid var(--cor-secundaria);
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
 
 .main-content section {
@@ -71,7 +109,7 @@ body {
   margin-bottom: 30px;
   padding: 0 20px;
   color: var(--cor-texto);
-} 
+}
 
 .main-content h3 {
   font-size: 1.5em;
@@ -85,7 +123,7 @@ body {
   margin-bottom: 30px;
 }
 
-.main-content li{
+.main-content li {
   margin-bottom: 15px;
 }
 
@@ -133,7 +171,7 @@ body {
   font-weight: 500;
 }
 
-.main-content .form{
+.main-content .form {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -155,12 +193,12 @@ body {
   background-color: var(--cor-secundaria);
   color: #fff;
   font-size: 1.2em;
-  cursor: pointer;  
+  cursor: pointer;
   transition: 0.3s ease;
 }
 
 .form button:hover {
-  background-color: #1e40af; 
+  background-color: #1e40af;
 }
 
 footer {
@@ -172,4 +210,3 @@ footer {
   width: 100%;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
-
